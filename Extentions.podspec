@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Extentions"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Extentions UIKit are written in swift."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hungh261/Extentions.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/hungh261/Extentions.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -9,13 +9,13 @@
 import UIKit
 
 public protocol ReusableView: class {
-    static var reuseIdentifier: String { get }
+    var extReuseIdentifier: String { get }
 }
 
 public extension ReusableView where Self: UIView {
     
-    static var reuseIdentifier: String {
-        return String(self)
+    var extReuseIdentifier: String {
+        return String(Self)
     }
 }
 
